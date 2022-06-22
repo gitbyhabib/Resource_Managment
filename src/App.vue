@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" >
 <!--     <div id="nav" class="navbar  navbar-dark">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
@@ -28,9 +28,6 @@
                   <li class="nav-item">
                      <router-link to="/user">User</router-link> 
                   </li>
-                
-            
-         
                   
                 </ul>
               </div>
@@ -43,8 +40,8 @@
        <section id="footer">
 
 
-        <div class="footer navbar-dark bg-dark text-white fixed-bottom" >
-            <p class="text-center">&copy;Copyright Reserved By <a href="hassanshahriar.info" style="color:azure; text-decoration:none;">Hassan Shahriar</a>
+        <div class="footer navbar-dark bg-dark text-white py-2 fixed-bottom" >
+            <p class="text-center mt-2">&copy;Copyright Reserved By  <router-link to="/profile" style="text-decoration:none; color:aliceblue">Habibur Rahman</router-link>
         </p>
         </div>
 
@@ -62,6 +59,7 @@
   background-color: #FFF;
 
   margin-bottom: 40px;
+  margin-top: 60px;
 }
 
 #nav {

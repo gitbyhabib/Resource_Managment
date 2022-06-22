@@ -4,9 +4,12 @@ import router from './router'
 import store from './store'
 import './assets/css/main.css'
 import './assets/js/main.js'
+
+import axios from 'axios'
 /* import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.min.js' */
 Vue.config.productionTip = false
+Vue.use(axios)
 
 new Vue({
   router,
